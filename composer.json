@@ -30,7 +30,7 @@
         "yiisoft/yii2-imagine": "required for `ImageFileBehavior`"
     },
     "autoload": {
-        "psr-4": { "dfware\\ar\\file\\": "" }
+        "psr-4": { "yii2tech\\ar\\file\\": "" }
     },
     "extra": {
         "branch-alias": {
