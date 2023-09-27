@@ -1,24 +1,24 @@
 {
-    "name": "yii2tech/ar-file",
+    "name": "dfware/ar-file",
     "description": "Provides support for ActiveRecord file attachment",
     "keywords": ["yii2", "active", "record", "file", "attachment", "transformation", "image", "thumbnail"],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/yii2tech/ar-file/issues",
+        "issues": "https://github.com/dfware/ar-file/issues",
         "forum": "http://www.yiiframework.com/forum/",
-        "wiki": "https://github.com/yii2tech/ar-file/wiki",
-        "source": "https://github.com/yii2tech/ar-file"
+        "wiki": "https://github.com/dfware/ar-file/wiki",
+        "source": "https://github.com/dfware/ar-file"
     },
     "authors": [
         {
-            "name": "Paul Klimov",
-            "email": "klimov.paul@gmail.com"
+            "name": "Pavel Karelin",
+            "email": "devpastet@yandex.ru"
         }
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "yii2tech/file-storage": "*"
+        "dfware/file-storage": "*"
     },
     "repositories": [
         {
@@ -30,7 +30,7 @@
         "yiisoft/yii2-imagine": "required for `ImageFileBehavior`"
     },
     "autoload": {
-        "psr-4": { "yii2tech\\ar\\file\\": "" }
+        "psr-4": { "dfware\\ar\\file\\": "" }
     },
     "extra": {
         "branch-alias": {

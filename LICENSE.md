@@ -1,7 +1,7 @@
 The Yii framework is free software. It is released under the terms of
 the following BSD License.
 
-Copyright © 2015 by Yii2tech (https://github.com/yii2tech)
+Copyright © 2015 by Yii2tech (https://github.com/dfware)
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
