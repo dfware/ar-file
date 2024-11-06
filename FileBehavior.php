@@ -228,7 +228,7 @@ class FileBehavior extends Behavior
         }
 
         if ($placeholderPartSymbolPosition >= 0) {
-            if ($placeholderPartSymbolPosition < strlen($placeholderValue)) {
+            if (!is_null($placeholderValue) && $placeholderPartSymbolPosition < strlen($placeholderValue)) {
                 $placeholderValue = substr($placeholderValue, $placeholderPartSymbolPosition, 1);
             } else {
                 $placeholderValue = '0';
